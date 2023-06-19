@@ -130,16 +130,21 @@
 									<div class="panel">
 									<!-- <span class="image featured"><img src="../images/pic01.jpg" alt="" /></span> -->
 									<p></p>
+									<p>Below, I will explain the UML modelling tool and the diagrams I would use to analyse a website's (XSS) Cross-site scripting attack and the steps carried out. I will explain what UML tools I would use and why they are my most appropriate choice.</p>
 									<p><strong>Figure 1.</strong> Illustrates one of OWASP’s top ten vulnerabilities in a vulnerable website that an attacker has discovered and injected malicious code into. When a visitor accesses the website, the malicious script is activated each time, sending the session cookie to the malicious actor, who then gains access to the visitor’s session. (Software Testing Help, 2023)</p>
 									<iframe src ="../assets/XSS-Cross-site-scripting.pdf" style="width:100%; height:685px;"></iframe> 
 									<strong>Figure 1:</strong> One of OWASP's Top Ten Vulnerabilities unsing UML diagram. (Software Testing Help, 2023)<p></p>
-									<h3><strong>UMBRELLO</strong></h3>
-									<p>(A., n.d.) Umbrello is an open-source unified modelling tool and code generator ideal for the analysis and design phase in software development. Umbrello supports multiple UML diagrams such as case diagrams, sequences, classes, components, collaboration, deployment and a list of entities, activities and states; however, in the case of modelling, the XSS Cross-site scripting attack, I found that the sequence diagram would be the diagram to use to display the detailed flow of the XSS attack process, however when showing the architecture of the software development process.</p>
-									<h3><strong>Sequence Diagram</strong></h3>
-									<p>The sequence diagram displays a time sequence depicting the processes and objects in a message exchange between other objects and processes. Regarding the XSS attack displayed in Figure 1, the sequence diagram would be one UML tool for showing the elements or parts of a web-based application and software processes as they interact over time and are organised according to “objects (horizontally) and time (vertically)” (Visual Paradigm, n.d.) this would allow for a detailed overview of the software development process for the proposed software.</p>
 									<h3><strong>Visual Paradigm</strong></h3>
-									<p>“Visual Paradigm is a software design tool designed for agile software projects.” (Visual Paradigm, n.d.) And has a built-in agile development methodology in the software, which helps build systems in an agile way.</p>
-									<h3><strong>References</strong></h3>
+									<p>“Visual Paradigm is a software design tool designed for agile software projects.” (Visual Paradigm, n.d.) has a built-in agile development methodology in the software, which helps build systems in an agile way. Users of Visual Paradigm can create many types of Unified Modelling Language (UML) diagrams with minimal effort, making it flexible for the needs of small and large teams, allowing for customisation based on individual requirements. Its ability to collaborate among team members offers various diagram types beyond the traditional UML diagrams. It integrates with other tools like GitHub, making it my choice to model the proposed software.</p>
+									<h3><strong>Sequence Diagram</strong></h3>
+									<p>The sequence diagram displays a time sequence depicting the processes and objects in a message exchange between other objects and processes during the XSS attack. In Figure 1, the sequence diagram would be one UML diagram I would use for displaying the elements or parts of a web-based application and software processes as they interact over time and are organised according to “objects (horizontally) and time (vertically)” (Visual Paradigm, n.d.) which can help to identify potential vulnerabilities in the application.</p>
+									<h3><strong>Component Diagram</strong></h3>
+									<p>Component diagrams can be used to model the components of the web application and their interactions during an XSS attack. Component diagrams can help identify the vulnerable parts of the application that the attacker can exploit to initiate an XSS attack. It can also be used to debug issues and improve communication among team members and stakeholders when the data flow is unclear, allowing the software developer to analyse the code improvement processes deeply. (Geeks for Geeks, 2022)</p>
+									<h3><strong>Class Diagram</strong></h3>
+									<p>The class diagram is another UML diagram I would use to represent the structure of the system classes and objects in a system and their relationships with each other when modelling software systems using object-oriented principles. In this phase, I can identify courses with too many responsibilities or poorly defined interfaces to ensure that software systems are well-architected, maintainable, and extensible and can be used throughout the SDLC. (IBM, 2021)
+									Overall, a combination of these UML diagrams can effectively model and identify potential vulnerabilities in a web application that can lead to cross-site scripting attacks. This can help to design and implement countermeasures to prevent XSS attacks in the application.
+									</p>
+									<h4><strong>References</strong></h4>
 									<p>A., D., n.d. Umbrello UML Modeller, a tool for creating and editing UML diagrams. [Online] 
 Available at: https://ubunlog.com/umbrello-herramienta-para-crear-editar-diagramas-uml/
 [Accessed 13 June 2023].<p></p>
